@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700&display=swap');
+
 body {
     margin: 0;
-    background-color: lightgray;
-    font-family: "Montserrat", sans-serif;
+    background-color: rgb(253, 245, 245);
+    font-family: "Poppins", sans-serif;
     color: #222;
+    line-height: 1.6;
 }
 
 h1 {
-    color: crimson;
-    font-size: 3em;
+    font-family: "Bebas Neue", sans-serif;
+    color: rgb(237, 203, 172);
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 10px 0;
 }
 
 h2 {
+    font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
 }
 
@@ -26,11 +34,10 @@ header p {
 }
 
 header {
-    padding: 40px;
+    padding: 45px 20px;
     text-align: center;
     background-color: #222;
     color: ghostwhite;
-    
 }
 
 main {
@@ -47,11 +54,14 @@ section {
 .como {
     background-color: pink;
 }
-#comoFunciona{
-    color: darkgreen;
+
+#comoFunciona {
+    color: rgb(255, 251, 212);
 }
 
 footer {
-    padding: 20px;
+    background-color: #f6f0f0;
+    padding: 24px;
     text-align: center;
+    margin: 0;
 }
